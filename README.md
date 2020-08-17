@@ -5,6 +5,6 @@ This repository contains the Naskh Nastaleeq IndoPak text used on [Quranwbw.com]
 Preview image of an ayah:<br>
 <img src="https://raw.githubusercontent.com/marwan/indopak-quran-text/master/ayah.png">
 
-You can find a preview of it on either [Quranwbw.com](https://quranwbw.com) (change the word type from the settings) or [indopak.quranwbw.com](https://indopak.quranwbw.com).
+You can check it out online at either [Quranwbw.com](https://quranwbw.com) (change the word type from the settings) or [indopak.quranwbw.com](https://indopak.quranwbw.com). You can also use the [Quranwbw.com's Words API](https://api.quranwbw.com) which returns this IndoPak text in both word-by-word and complete ayah formats.
 
-If you need the whole database in either word-by-word or ayah-by-ayah format, just contact me on [quranwbw@gmail.com](mailto:quranwbw@gmail.com).
+If you need the whole database for your personal use, just contact me on [quranwbw@gmail.com](mailto:quranwbw@gmail.com).
