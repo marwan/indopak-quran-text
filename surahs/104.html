@@ -1,0 +1,80 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Surah 104  -  Al Humaza (الهمزة) - Quranwbw.com</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<style type="text/css">
+		@font-face {
+		  font-family: "IndoPak";
+		  src: url("./Naskh-Nastaleeq-IndoPak-QWBW.woff") format("woff");
+		}
+
+		body {
+			font-family: arial;
+			/*direction: rtl;*/
+			font-size: 40px;
+		}
+
+		.title {
+			text-align: center;
+			font-size: 30px;
+		}
+
+		.ayah {
+			font-family: "IndoPak";
+			direction: rtl;
+			padding-bottom: 10px;
+			padding-top: 10px;
+			border-bottom: 1px solid #cacaca;
+		}
+
+		.ayah:hover {
+			background: #f3f3f39e;
+		}
+
+		.word {
+			border-bottom: 1px solid transparent;
+		}
+
+		.word:hover {
+			color: #b1901f;
+			cursor: pointer;
+			border-bottom: 1px solid;
+		}
+
+		.selector {
+			text-align: center;
+	    font-size: 20px;
+	    padding-bottom: 40px;
+		}
+
+	</style>
+</head>
+<body>
+
+<h4 class='title'>Surah 104  -  Al Humaza (الهمزة)</h4><div class='selector'>Goto Ayah: <select id='ayah-selector'></select></div><div class='ayah' id='1'><span class='word'>وَیْلٌ</span> <span class='word'>لِّكُلِّ</span> <span class='word'>هُمَزَةٍ</span> <span class='word'>لُّمَزَةِۙ</span> </div><div class='ayah' id='2'><span class='word'>لَّذِیْ</span> <span class='word'>جَمَعَ</span> <span class='word'>مَالًا</span> <span class='word'>وَّ عَدَّدَهٗۙ</span> </div><div class='ayah' id='3'><span class='word'>یَحْسَبُ</span> <span class='word'>اَنَّ</span> <span class='word'>مَالَهٗۤ</span> <span class='word'>اَخْلَدَهٗۚ</span> </div><div class='ayah' id='4'><span class='word'>كَلَّا</span> <span class='word'></span> <span class='word'>لَیُنْۢبَذَنَّ</span> <span class='word'>فِی</span> <span class='word'>الْحُطَمَةِؗۖ</span> </div><div class='ayah' id='5'><span class='word'>وَ مَاۤ</span> <span class='word'>اَدْرٰىكَ</span> <span class='word'>مَا</span> <span class='word'>الْحُطَمَةُؕ</span> </div><div class='ayah' id='6'><span class='word'>نَارُ</span> <span class='word'>اللّٰهِ</span> <span class='word'>الْمُوْقَدَةُۙ</span> </div><div class='ayah' id='7'><span class='word'>الَّتِیْ</span> <span class='word'>تَطَّلِعُ</span> <span class='word'>عَلَی</span> <span class='word'>الْاَفْـِٕدَةِؕ</span> </div><div class='ayah' id='8'><span class='word'>اِنَّهَا</span> <span class='word'>عَلَیْهِمْ</span> <span class='word'>مُّؤْصَدَةٌۙ</span> </div><div class='ayah' id='9'><span class='word'>فِیْ</span> <span class='word'>عَمَدٍ</span> <span class='word'>مُّمَدَّدَةٍ۠</span> </div>
+</body>
+
+<script src="./jquery.js"></script>
+
+<script type="text/javascript">
+	
+	var total_ayahs = 9;
+
+	$(window).on('load', function (e) {
+		for (var ayah = 1; ayah <= total_ayahs; ayah++) {
+	    $("#ayah-selector").append("<option val='" + ayah + "'>Ayah " + ayah + "</option>");
+	  }
+	});
+
+	$(document).on('change','#ayah-selector', function() {
+	  var selected_ayah = $('#ayah-selector').val().split(' ')[1];
+	  window.location.replace("#" + selected_ayah);
+	});
+
+</script>
+
+</html>

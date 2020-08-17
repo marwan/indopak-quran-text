@@ -1,0 +1,80 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Surah 105  -  Al Fil (الفيل) - Quranwbw.com</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<style type="text/css">
+		@font-face {
+		  font-family: "IndoPak";
+		  src: url("./Naskh-Nastaleeq-IndoPak-QWBW.woff") format("woff");
+		}
+
+		body {
+			font-family: arial;
+			/*direction: rtl;*/
+			font-size: 40px;
+		}
+
+		.title {
+			text-align: center;
+			font-size: 30px;
+		}
+
+		.ayah {
+			font-family: "IndoPak";
+			direction: rtl;
+			padding-bottom: 10px;
+			padding-top: 10px;
+			border-bottom: 1px solid #cacaca;
+		}
+
+		.ayah:hover {
+			background: #f3f3f39e;
+		}
+
+		.word {
+			border-bottom: 1px solid transparent;
+		}
+
+		.word:hover {
+			color: #b1901f;
+			cursor: pointer;
+			border-bottom: 1px solid;
+		}
+
+		.selector {
+			text-align: center;
+	    font-size: 20px;
+	    padding-bottom: 40px;
+		}
+
+	</style>
+</head>
+<body>
+
+<h4 class='title'>Surah 105  -  Al Fil (الفيل)</h4><div class='selector'>Goto Ayah: <select id='ayah-selector'></select></div><div class='ayah' id='1'><span class='word'>اَلَمْ</span> <span class='word'>تَرَ</span> <span class='word'>كَیْفَ</span> <span class='word'>فَعَلَ</span> <span class='word'>رَبُّكَ</span> <span class='word'>بِاَصْحٰبِ</span> <span class='word'>الْفِیْلِؕ</span> </div><div class='ayah' id='2'><span class='word'>اَلَمْ</span> <span class='word'>یَجْعَلْ</span> <span class='word'>كَیْدَهُمْ</span> <span class='word'>فِیْ</span> <span class='word'>تَضْلِیْلٍۙ</span> </div><div class='ayah' id='3'><span class='word'>وَّ اَرْسَلَ</span> <span class='word'>عَلَیْهِمْ</span> <span class='word'>طَیْرًا</span> <span class='word'>اَبَابِیْلَۙ</span> </div><div class='ayah' id='4'><span class='word'>تَرْمِیْهِمْ</span> <span class='word'>بِحِجَارَةٍ</span> <span class='word'>مِّنْ</span> <span class='word'>سِجِّیْلٍ۪ۙ</span> </div><div class='ayah' id='5'><span class='word'>فَجَعَلَهُمْ</span> <span class='word'>كَعَصْفٍ</span> <span class='word'>مَّاْكُوْلٍ۠</span> </div>
+</body>
+
+<script src="./jquery.js"></script>
+
+<script type="text/javascript">
+	
+	var total_ayahs = 5;
+
+	$(window).on('load', function (e) {
+		for (var ayah = 1; ayah <= total_ayahs; ayah++) {
+	    $("#ayah-selector").append("<option val='" + ayah + "'>Ayah " + ayah + "</option>");
+	  }
+	});
+
+	$(document).on('change','#ayah-selector', function() {
+	  var selected_ayah = $('#ayah-selector').val().split(' ')[1];
+	  window.location.replace("#" + selected_ayah);
+	});
+
+</script>
+
+</html>

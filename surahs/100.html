@@ -1,0 +1,80 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Surah 100  -  Al Aadiyaat (العاديات) - Quranwbw.com</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<style type="text/css">
+		@font-face {
+		  font-family: "IndoPak";
+		  src: url("./Naskh-Nastaleeq-IndoPak-QWBW.woff") format("woff");
+		}
+
+		body {
+			font-family: arial;
+			/*direction: rtl;*/
+			font-size: 40px;
+		}
+
+		.title {
+			text-align: center;
+			font-size: 30px;
+		}
+
+		.ayah {
+			font-family: "IndoPak";
+			direction: rtl;
+			padding-bottom: 10px;
+			padding-top: 10px;
+			border-bottom: 1px solid #cacaca;
+		}
+
+		.ayah:hover {
+			background: #f3f3f39e;
+		}
+
+		.word {
+			border-bottom: 1px solid transparent;
+		}
+
+		.word:hover {
+			color: #b1901f;
+			cursor: pointer;
+			border-bottom: 1px solid;
+		}
+
+		.selector {
+			text-align: center;
+	    font-size: 20px;
+	    padding-bottom: 40px;
+		}
+
+	</style>
+</head>
+<body>
+
+<h4 class='title'>Surah 100  -  Al Aadiyaat (العاديات)</h4><div class='selector'>Goto Ayah: <select id='ayah-selector'></select></div><div class='ayah' id='1'><span class='word'>وَ الْعٰدِیٰتِ</span> <span class='word'>ضَبْحًاۙ</span> </div><div class='ayah' id='2'><span class='word'>فَالْمُوْرِیٰتِ</span> <span class='word'>قَدْحًاۙ</span> </div><div class='ayah' id='3'><span class='word'>فَالْمُغِیْرٰتِ</span> <span class='word'>صُبْحًاۙ</span> </div><div class='ayah' id='4'><span class='word'>فَاَثَرْنَ</span> <span class='word'>بِهٖ</span> <span class='word'>نَقْعًاۙ</span> </div><div class='ayah' id='5'><span class='word'>فَوَسَطْنَ</span> <span class='word'>بِهٖ</span> <span class='word'>جَمْعًاۙ</span> </div><div class='ayah' id='6'><span class='word'>اِنَّ</span> <span class='word'>الْاِنْسَانَ</span> <span class='word'>لِرَبِّهٖ</span> <span class='word'>لَكَنُوْدٌۚ</span> </div><div class='ayah' id='7'><span class='word'>وَ اِنَّهٗ</span> <span class='word'>عَلٰی</span> <span class='word'>ذٰلِكَ</span> <span class='word'>لَشَهِیْدٌۚ</span> </div><div class='ayah' id='8'><span class='word'>وَ اِنَّهٗ</span> <span class='word'>لِحُبِّ</span> <span class='word'>الْخَیْرِ</span> <span class='word'>لَشَدِیْدٌؕ</span> </div><div class='ayah' id='9'><span class='word'>اَفَلَا</span> <span class='word'>یَعْلَمُ</span> <span class='word'>اِذَا</span> <span class='word'>بُعْثِرَ</span> <span class='word'>مَا</span> <span class='word'>فِی</span> <span class='word'>الْقُبُوْرِۙ</span> </div><div class='ayah' id='10'><span class='word'>وَ حُصِّلَ</span> <span class='word'>مَا</span> <span class='word'>فِی</span> <span class='word'>الصُّدُوْرِۙ</span> </div><div class='ayah' id='11'><span class='word'>اِنَّ</span> <span class='word'>رَبَّهُمْ</span> <span class='word'>بِهِمْ</span> <span class='word'>یَوْمَىِٕذٍ</span> <span class='word'>لَّخَبِیْرٌ۠</span> </div>
+</body>
+
+<script src="./jquery.js"></script>
+
+<script type="text/javascript">
+	
+	var total_ayahs = 11;
+
+	$(window).on('load', function (e) {
+		for (var ayah = 1; ayah <= total_ayahs; ayah++) {
+	    $("#ayah-selector").append("<option val='" + ayah + "'>Ayah " + ayah + "</option>");
+	  }
+	});
+
+	$(document).on('change','#ayah-selector', function() {
+	  var selected_ayah = $('#ayah-selector').val().split(' ')[1];
+	  window.location.replace("#" + selected_ayah);
+	});
+
+</script>
+
+</html>
