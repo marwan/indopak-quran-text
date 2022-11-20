@@ -1,3 +1,10 @@
+# Update 
+
+DO NOT USE!! 
+
+We have made some changes and fixed some issues, hence I would advise to not use these data anymore and wait until we upload the new one. 
+
+
 # Naskh Nastaleeq IndoPak Quran Text
 
 This repository contains the Naskh Nastaleeq IndoPak text used on [Quranwbw.com](https://quranwbw.com). This is the highly improved version of the normal IndoPak text found online and was made to closely resemble the actual IndoPak mushaf including the pause marks and rounded ayah icons. If you are planning to use this text, make sure to only use the font provided in this repository and not the normal Al Qalam Quran font. 
