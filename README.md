@@ -1,13 +1,15 @@
-# Assalamu Alaikum wa rehmatullahi wa barakatahu,
+# Assalamu Alaikum Wa Rehmatullahi Wa Barakatahu
+
+The Naskh Nastaleeq IndoPak text showcased on Quran.com and QuranWBW.com is a refined version of the standard IndoPak script available online. This improved text is designed to closely mirror the authentic IndoPak mushaf, complete with accurate pause marks and rounded ayah icons, enhancing its visual and resemblance to the traditional manuscript.
 
 We have done our best efforts to make available this Indopak Quran Text in the best of its form and Quality.
 
-Preview image of an ayah:<br>
-<img src="https://raw.githubusercontent.com/marwan/indopak-quran-text/master/ayah.png">
+Preview of an ayah:<br>
+<img src="images/2-255.png">
 
-## For Madinah Version Text
+## Madinah Version
 
-We have Manually & Digitally Verified the Word-to-Word and Pausemark-to-Pausemark of this Quran Text with King Fahad Glorious Quran Printing Complex's Nastaleeq Text/Mushaf (v.10.0).
+For Madinah Version Text, we have Manually & Digitally Verified the Word-to-Word and Pausemark-to-Pausemark of this Quran Text with King Fahad Glorious Quran Printing Complex's Nastaleeq Text/Mushaf (v.10.0).
 
 The Source of the Quran Text (digital file):
 https://fonts.qurancomplex.gov.sa/wp02/hafs-nastaleek
@@ -15,9 +17,9 @@ https://fonts.qurancomplex.gov.sa/wp02/hafs-nastaleek
 The Indo-Pak/Nastaleeq Mushaf Official Link:
 https://qurancomplex.gov.sa/en/kfgqpc-quran-hafs-nastaleeq/
 
-## For Hanafi Version Text
+## Hanafi Version
 
-We have used Indopak Text which was originally made by Inpage Quran Publishing Software and was made available on the internet by Ata Rafi of typemybook.com. (see source link below)
+For Hanafi Version Text, we have used Indopak Text which was originally made by Inpage Quran Publishing Software and was made available on the internet by Ata Rafi of typemybook.com. (see source link below)
 
 The original Hanafi text was made available in HTML format with AlQalam font. We then manually split the text into word by word and compared this text with King Fahad Glorious Quran Printing Complex's Nastaleeq Text/Mushaf and digitally identified the differences. We then manually checked the differences that were digitally identified between both the versions and made adjustments by manually verifying each and every word and Ayah icon with the 13 lines Indopak Hanafi Quran (Mushaf) {which is famously used in Indian Subcontinent Region}. (See below link).
 
@@ -59,13 +61,13 @@ The above two variants of the fonts are further available in three different Wor
 
 Important Note: The included Text files of both versions is only compatible with the included font files. These texts are not compatible with any of the older versions of these fonts or any other normal fonts.
 
-## Live Preview
+## Preview
 
-You can preview the data live on https://quranwbw.com (select the "Naskh Nastaleeq IndoPak" font type from settings).
+You can preview the fonts live on https://quran.com or https://quranwbw.com.
 
 ## Credits
 
-Made by: Ayman Siddiqui and R. Siddiqua for www.QuranWBW.com and www.Quran.com for Sadaqa-e-Jaria purposes only.
+Made by Ayman Siddiqui and R. Siddiqua for www.QuranWBW.com and www.Quran.com for Sadaqa-e-Jaria purposes only.
 
 _DO NOT SELL, MANIPULATE, DISTRIBUTE WITHOUT CREDITS OR TAMPER IN ANY FORM OR MANNER._
 
