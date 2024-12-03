@@ -5,7 +5,7 @@ The Naskh Nastaleeq IndoPak text showcased on Quran.com and QuranWBW.com is a re
 We have done our best efforts to make available this Indopak Quran Text in the best of its form and Quality.
 
 Preview of an ayah:<br>
-<img src="images/2-255.png">
+<img src="Images/2-255.png">
 
 ## Madinah Version
 
